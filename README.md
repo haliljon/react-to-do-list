@@ -8,6 +8,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [Deployment Link:](#deployment-link)
   - [💻 Getting Started with Create React App ](#-getting-started-with-create-react-app-)
   - [Available Scripts](#available-scripts)
     - [`npm start`](#npm-start)
@@ -74,6 +75,10 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Deployment Link:
+
+https://haliljon.github.io/react-to-do-list/
 
 ## 💻 Getting Started with Create React App <a name="getting-started"></a>
 
