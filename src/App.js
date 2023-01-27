@@ -1,6 +1,6 @@
 import React from 'react';
 import './functionBased/App.css';
-//component file
+// component file
 import TodoContainer from './functionBased/components/TodoContainer';
 
 function App() {
@@ -8,4 +8,3 @@ function App() {
 }
 
 export default App;
-

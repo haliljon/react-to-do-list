@@ -1,22 +1,27 @@
 import React from 'react';
 import styles from './TodoItem.module.css';
+
 class TodoItem extends React.Component {
   state = {
     editing: false,
   };
+
   handleEditing = () => {
     this.setState({
       editing: true,
     });
   };
+
   handleUpdatedDone = (event) => {
     if (event.key === 'Enter') {
       this.setState({ editing: false });
     }
   };
+
   componentWillUnmount() {
     console.log('Cleaning up...');
   }
+
   render() {
     const completedStyle = {
       fontStyle: 'italic',
@@ -24,8 +29,8 @@ class TodoItem extends React.Component {
       opacity: 0.4,
       textDecoration: 'line-through',
     };
-    let viewMode = {};
-    let editMode = {};
+    const viewMode = {};
+    const editMode = {};
 
     if (this.state.editing) {
       viewMode.display = 'none';

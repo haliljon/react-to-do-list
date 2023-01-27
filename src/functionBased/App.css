@@ -11,15 +11,17 @@ body {
   background: #fff;
   height: 100vh;
 }
+
 h1 {
   font-size: 6rem;
   font-weight: 600;
   margin-bottom: 2rem;
   line-height: 1em;
   color: #ececec;
-  text-transform: 'lowercase';
-  text-align: 'center';
+  text-transform: lowercase;
+  text-align: center;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -71,11 +73,13 @@ h1 {
   outline: none;
   border: none;
 }
+
 .input-submit svg {
   color: darkcyan;
   font-size: 20px;
   margin-top: 2px;
 }
+
 .active-link {
   color: orangered;
   text-decoration: underline;
@@ -93,6 +97,8 @@ h1 {
   top: 40px;
   z-index: 10;
   cursor: pointer;
+  background: transparent;
+  border: none;
 }
 
 .menuNav {
@@ -126,11 +132,7 @@ a {
 .menuNav li:first-child {
   margin-top: 7rem;
 }
-.navBar button {
-  /* addition */
-  background: transparent;
-  border: none;
-}
+
 /* about page */
 
 .about__content {

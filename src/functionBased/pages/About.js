@@ -1,6 +1,9 @@
 import React from 'react';
-import { useNavigate, Route, Routes, Link } from 'react-router-dom';
+import {
+  useNavigate, Route, Routes, Link,
+} from 'react-router-dom';
 import SinglePage from './SinglePage';
+
 const About = () => {
   const { url, path } = useNavigate();
   return (
